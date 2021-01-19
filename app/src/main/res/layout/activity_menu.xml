@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_Scroll"
+            style="@style/ButtonTheme_DarkGray"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:text="Scroll"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_Linear"
+                style="@style/ButtonTheme_DarkGray"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:text="Linear"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_Relative"
+                style="@style/ButtonTheme_DarkGray"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:text="Relative"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_Frame"
+                style="@style/ButtonTheme_DarkGray"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:text="Frame"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_Constrain"
+                style="@style/ButtonTheme_DarkGray"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:text="Constrain"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_Toast"
+                style="@style/ButtonTheme_DarkGray"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:text="Toast"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_AlertDialog"
+                style="@style/ButtonTheme_DarkGray"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:text="Alert Dialog"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".LinearActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
         android:text="Hallo Dunia"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -20,7 +21,9 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Button Panjang"
+        app:backgroundTint="@color/black"
+        app:icon="@android:drawable/sym_call_incoming" />
 
     <Button
         android:id="@+id/button2"
@@ -35,17 +38,28 @@
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:insetRight="0dp"
             android:text="Button" />
 
         <Button
             android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:includeFontPadding="false"
+            android:insetLeft="0dp"
+            android:text="Button"
+            app:backgroundTint="#E91E63" />
+
+        <ImageView
+            android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            tools:srcCompat="@tools:sample/avatars" />
     </LinearLayout>
 
 </LinearLayout>
